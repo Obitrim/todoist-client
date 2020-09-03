@@ -5,6 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --app-bg: rgb(51, 51, 51);
+  --warning: rgb(255, 153, 0);
+  --muted: rgb(110, 110, 109);
+  --danger: rgb(249, 117, 117);
+  --success: rgb(2, 234, 2);
+  
+  background-color: var(--app-bg);
 }
 
 code {

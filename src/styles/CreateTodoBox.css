@@ -1,0 +1,60 @@
+.create-todo-box {
+	padding: 1rem;
+	background-color: rgba(255, 255, 255, 0.15);
+}
+
+.box-row {
+	color: #fff;
+}
+
+.box-row__col {
+	margin-top: 0.8rem;
+}
+
+.box-row__submit {
+	padding: 0.5rem 1rem;
+	border: none;
+	border: 1px solid var(--warning);
+	border-radius: 2rem;
+	background-color: var(--warning);
+	transition: 0.25s;
+	align-self: center;
+	margin-top: 1rem;
+}
+
+.box-row__col__input {
+	display: block;
+	width: 80%;
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 2rem;
+	margin-top: 0.4rem;
+}
+
+.box-row__col__error-message {
+	color: var(--warning);
+	font-size: 0.8rem;
+}
+
+.box-row__submit:hover {
+	cursor: pointer;
+	background-color: transparent;
+	color: var(--warning);
+}
+
+@media (min-width: 576px){
+
+	.box-row {
+		display: flex;
+		align-items: flex-start;
+	}
+
+	.box-row__col {
+		flex: 1;
+		margin-top: 0;
+	}
+
+	.box-row__submit {
+		margin-top: 0;
+	}
+}

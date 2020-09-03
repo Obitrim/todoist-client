@@ -1,0 +1,60 @@
+.task-list-item {
+	padding: 0.6rem 1rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.task-list-item:not(:last-child){
+	border-bottom: 1px solid var(--app-bg);
+}
+
+.task-info__description,
+.task-info__title {
+	margin: 0;
+}
+
+.task-info__description {
+	color: var(--muted);
+	font-size: 80%;
+}
+
+.action-btns {
+	align-self: center;
+}
+
+.action-btns > :last-child {
+	margin-left: 0.5rem;
+}
+
+.action-btns__delete-btn,
+.action-btns__complete-btn {
+	padding: 0.2rem 0.5rem;
+	border-radius: 2rem;
+	border: none;
+	background-color: transparent;
+	transition: 0.2s;
+}
+
+.action-btns__delete-btn {
+	color: var(--danger);
+	border: 1px solid var(--danger);
+}
+
+.action-btns__complete-btn {
+	color: var(--success);
+	border: 1px solid var(--success);
+}
+
+.action-btns__delete-btn:hover,
+.action-btns__complete-btn:hover {
+	cursor: pointer;
+	color: black;
+}
+
+.action-btns__delete-btn:hover {
+	background-color: var(--danger);
+}
+
+.action-btns__complete-btn:hover {
+	background-color: var(--success);
+}

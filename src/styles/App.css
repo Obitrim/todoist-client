@@ -1,0 +1,10 @@
+.app {
+	max-width: 768px;
+	margin: 1rem auto 0;
+	padding: 0 1rem;
+}
+
+.app__title {
+	text-align: center;
+	color: #fff;
+}
