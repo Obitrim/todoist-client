@@ -1,1 +1,2 @@
-"#Todoist \nFullstack MERN stack productivity app" 
+# Todoist 
+Fullstack MERN stack productivity app
