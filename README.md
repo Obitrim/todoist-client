@@ -2,7 +2,7 @@
 
 A react front-end task managing application.
 
-![Todoist App](https://Obitrim.github.io/todoist-client/blob/master/docs/todoist.png)
+![Todoist App](https://github.io/Obitrim/todoist-client/blob/master/docs/todoist.png)
 
 ### Tools and Technologies
 
